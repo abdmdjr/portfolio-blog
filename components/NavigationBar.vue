@@ -1,19 +1,33 @@
 <template>
   <header class="el-header">
     <a class="logo" href="#">abdmdjr.</a>
-    <div class="burger" role="button">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
+    <button
+      class="hamburger hamburger--spring"
+      :class="{ 'is-active': showBurger }"
+      type="button"
+      @click="showBurger = !showBurger"
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
   </header>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      showBurger: false
+    }
+  }
+}
+</script>
 <style scoped>
 .el-header {
   display: flex;
   width: 100%;
-  height: 3.4rem;
+  height: 4.4rem;
   padding: 0 30px;
   justify-content: space-between;
   align-items: center;
@@ -28,24 +42,28 @@
   text-decoration: none;
 }
 
-.burger {
-  display: flex;
-  width: 27px;
-  height: 33.3%;
-  flex-direction: column;
-  justify-content: space-around;
-  cursor: pointer;
+.hamburger {
+  height: 22px;
+  padding: 0;
 }
 
-.bar {
-  width: 90%;
-  height: 2px;
+.hamburger-box {
+  width: 30px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+  width: 30px;
+  height: 1.5px;
   margin-bottom: 0.25rem;
   background-color: white;
   border-radius: 20px;
 }
 
-.bar:last-child {
-  margin-bottom: 0;
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: white;
 }
 </style>

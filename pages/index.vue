@@ -1,6 +1,7 @@
 <template>
   <div class="layout">
     <NavigationBar />
+    <div class="content"></div>
   </div>
 </template>
 
