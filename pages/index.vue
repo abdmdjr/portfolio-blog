@@ -1,16 +1,18 @@
 <template>
   <div class="layout">
     <NavigationBar />
-    <div class="content"></div>
+    <Hero />
   </div>
 </template>
 
 <script>
 import NavigationBar from '~/components/NavigationBar.vue'
+import Hero from '~/components/Hero.vue'
 
 export default {
   components: {
-    NavigationBar
+    NavigationBar,
+    Hero
   }
 }
 </script>

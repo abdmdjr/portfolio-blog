@@ -38,7 +38,7 @@ export default {
   font-family: 'Dosis', sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: white;
+  color: #f2f6fc;
   text-decoration: none;
 }
 
@@ -57,13 +57,13 @@ export default {
   width: 30px;
   height: 1.5px;
   margin-bottom: 0.25rem;
-  background-color: white;
+  background-color: #f2f6fc;
   border-radius: 20px;
 }
 
 .hamburger.is-active .hamburger-inner,
 .hamburger.is-active .hamburger-inner::before,
 .hamburger.is-active .hamburger-inner::after {
-  background-color: white;
+  background-color: #f2f6fc;
 }
 </style>
