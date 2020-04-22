@@ -10,7 +10,7 @@
         <div
           class="hero-text bg-gray-200 flex items-center p-6 text-justify mx-auto h-20 w-72 shadow-md"
         >
-          <h3 class="flex self-center text-sm font-medium">
+          <h3 class="flex font-body self-center text-sm font-medium">
             Hi! I'm Abdelrhany Medjaheri<br />
             Developer Front-End Junior
           </h3>
@@ -28,8 +28,4 @@
 <script>
 export default {}
 </script>
-<style scoped>
-h3 {
-  font-family: 'Quicksand', sans-serif;
-}
-</style>
+<style scoped></style>
