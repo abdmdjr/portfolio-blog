@@ -1,5 +1,5 @@
 <template>
-  <header class="el-header">
+  <header class="header">
     <a class="logo" href="#">abdmdjr.</a>
     <button
       class="hamburger hamburger--spring"
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 <style scoped>
-.el-header {
+.header {
   display: flex;
   width: 100%;
   height: 4.4rem;

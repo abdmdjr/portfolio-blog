@@ -24,20 +24,21 @@ export default {
    ** Global CSS
    */
   css: [
-    'element-ui/lib/theme-chalk/index.css',
     '~/assets/style/main.css',
-    '~/assets/style/hamburgers.css'
+    '~/assets/style/hamburgers.css',
+    '~/assets/css/tailwind.css'
   ],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/element-ui'],
+  plugins: [],
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss'
   ],
   /*
    ** Nuxt.js modules
@@ -47,7 +48,6 @@ export default {
    ** Build configuration
    */
   build: {
-    transpile: [/^element-ui/],
     /*
      ** You can extend webpack config here
      */
