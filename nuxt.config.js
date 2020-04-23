@@ -24,8 +24,8 @@ export default {
    ** Global CSS
    */
   css: [
-    '~/assets/style/main.css',
-    '~/assets/style/hamburgers.css',
+    '~/assets/css/main.css',
+    '~/assets/css/hamburgers.css',
     '~/assets/css/tailwind.css'
   ],
   /*
