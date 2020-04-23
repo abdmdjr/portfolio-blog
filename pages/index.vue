@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div class="layout">
     <NavigationBar />
@@ -6,6 +7,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    }
+  }
+}
+</script>
 <script>
 import NavigationBar from '~/components/NavigationBar.vue'
 import Hero from '~/components/Hero.vue'
@@ -19,16 +31,4 @@ export default {
   }
 }
 </script>
-<script>
-export default {
-  head() {
-    return {
-      script: [
-        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
-      ]
-    }
-  }
-}
-</script>
-
 <style></style>
