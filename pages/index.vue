@@ -16,7 +16,11 @@ export default {
     NavigationBar,
     Hero,
     Blog
-  },
+  }
+}
+</script>
+<script>
+export default {
   head() {
     return {
       script: [
