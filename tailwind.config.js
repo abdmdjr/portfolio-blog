@@ -20,6 +20,7 @@ module.exports = {
         '106': '106%',
         '55': '55%',
         '60': '60%',
+        '22': '22%',
         '10': '10%',
         '5': '5%'
       },
@@ -28,10 +29,6 @@ module.exports = {
         '84': '21rem',
         '96': '24rem',
         '108': '27rem'
-      },
-      fontFamily: {
-        // eslint-disable-next-line prettier/prettier
-        'body': 'Quicksand, sans-serif'
       }
     }
   },

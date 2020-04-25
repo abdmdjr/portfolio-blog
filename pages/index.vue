@@ -1,9 +1,11 @@
-/* eslint-disable prettier/prettier */
 <template>
   <div class="layout">
     <NavigationBar />
     <Hero />
-    <Blog />
+    <div class="container w-auto mx-auto px-6 sm:px-16 mt-12">
+      <Blog />
+      <About />
+    </div>
   </div>
 </template>
 
@@ -22,12 +24,14 @@ export default {
 import NavigationBar from '~/components/NavigationBar.vue'
 import Hero from '~/components/Hero.vue'
 import Blog from '~/components/Blog.vue'
+import About from '~/components/About.vue'
 
 export default {
   components: {
     NavigationBar,
     Hero,
-    Blog
+    Blog,
+    About
   }
 }
 </script>
