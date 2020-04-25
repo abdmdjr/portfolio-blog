@@ -32,7 +32,7 @@ h3 {
   font-family: 'Dosis', sans-serif;
 }
 
-h1 {
+.title {
   font-family: 'Quicksand', sans-serif;
 }
 </style>

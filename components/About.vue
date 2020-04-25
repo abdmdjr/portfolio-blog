@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="relative font-bold text-2xl md:text-3xl mt-12">
+    <h1 class="title relative font-bold text-2xl md:text-3xl mt-12">
       A propos de moi<span
         class="iconblog w-6 h-6 md:w-8 md:h-8 top-22 ml-3"
       ></span>
