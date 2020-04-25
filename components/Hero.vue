@@ -8,7 +8,7 @@
           alt
         />
         <div
-          class="lg:absolute lg:top-2/5 lg:right-60 xl:right-55 h-20 w-72 lg:h-32 lg:w-96 bg-gray-200 flex items-center p-6 text-justify mx-auto shadow-xl"
+          class="lg:absolute lg:top-2/5 lg:right-60 xl:right-55 h-20 w-72 lg:h-32 lg:w-96 bg-gray-200 flex items-center p-6 text-justify mx-auto rounded-md shadow-lg"
         >
           <h3
             class="icon flex font-body self-center text-sm lg:text-xl font-medium"
@@ -17,7 +17,9 @@
             Junior Front-end Developer<a
               href="https://drive.google.com/file/d/1QYC_viSKucLjsbD4aymXijeR8ybp6aZK/view?usp=sharing"
               target="_blank"
-              ><span class="iconhero w-12 h-12 left-108 lg:w-12 lg:h-12"></span
+              ><span
+                class="iconhero w-10 h-10 left-106 lg:top-10 lg:w-12 lg:h-12 transition duration-200 ease-out transform hover:scale-125"
+              ></span
             ></a>
           </h3>
         </div>
@@ -36,8 +38,7 @@ export default {}
 .iconhero {
   content: '';
   position: absolute;
-  top: 4%;
-  background-image: url('~assets/img/iconherocv.svg');
+  background-image: url('~assets/img/iconherocv2.svg');
   background-repeat: no-repeat;
 }
 </style>

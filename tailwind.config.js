@@ -17,7 +17,7 @@ module.exports = {
         '1/5': '20%',
         '2/3': '66%',
         '2/5': '40%',
-        '108': '108%',
+        '106': '106%',
         '55': '55%',
         '60': '60%',
         '10': '10%',
@@ -26,7 +26,8 @@ module.exports = {
       spacing: {
         '72': '18rem',
         '84': '21rem',
-        '96': '24rem'
+        '96': '24rem',
+        '108': '27rem'
       },
       fontFamily: {
         // eslint-disable-next-line prettier/prettier
