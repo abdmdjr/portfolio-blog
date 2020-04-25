@@ -31,8 +31,4 @@ p,
 h3 {
   font-family: 'Dosis', sans-serif;
 }
-
-.title {
-  font-family: 'Mitr', sans-serif;
-}
 </style>

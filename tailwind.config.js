@@ -29,6 +29,10 @@ module.exports = {
         '84': '21rem',
         '96': '24rem',
         '108': '27rem'
+      },
+      fontFamily: {
+        // eslint-disable-next-line prettier/prettier
+        'title': ['Mitr', 'sans-serif']
       }
     }
   },
