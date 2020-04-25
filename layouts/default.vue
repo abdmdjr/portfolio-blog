@@ -6,7 +6,7 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&display=swap');
 
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -33,6 +33,6 @@ h3 {
 }
 
 .title {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Mitr', sans-serif;
 }
 </style>

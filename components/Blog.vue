@@ -6,7 +6,9 @@
     <ul class="sm:grid sm:grid-cols-2 gap-10">
       <li v-for="blogPost in blogPosts" :key="blogPost" class="mt-8">
         <img :src="blogPost.img" alt="article image" />
-        <h1 class="title text-2xl font-bold mt-1 mb-1">{{ blogPost.title }}</h1>
+        <h1 class="title text-2xl mt-1 mb-1">
+          {{ blogPost.title }}
+        </h1>
         <p class="text-gray-700 sm:text-xl">
           {{ blogPost.description }}
         </p>
