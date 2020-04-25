@@ -5,9 +5,6 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500;600&display=swap');
-
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -25,10 +22,5 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
-}
-
-p,
-h3 {
-  font-family: 'Dosis', sans-serif;
 }
 </style>
