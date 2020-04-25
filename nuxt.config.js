@@ -24,9 +24,9 @@ export default {
    ** Global CSS
    */
   css: [
-    '~/assets/css/main.css',
     '~/assets/css/hamburgers.css',
-    '~/assets/css/tailwind.css'
+    '~/assets/css/tailwind.css',
+    '~/assets/css/main.css'
   ],
   /*
    ** Plugins to load before mounting the App
