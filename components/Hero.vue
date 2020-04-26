@@ -8,16 +8,18 @@
           alt
         />
         <div
-          class="lg:absolute lg:top-2/5 lg:right-60 xl:right-55 h-20 w-72 lg:h-32 lg:w-96 bg-gray-200 flex items-center p-6 text-justify mx-auto rounded-md shadow-lg"
+          class="lg:absolute lg:top-35 lg:right-60 xl:right-57 h-20 w-72 xl:h-32 xl:w-96 bg-gray-200 flex items-center p-6 text-justify mx-auto rounded-md shadow-lg"
         >
-          <h3 class="relative flex self-center text-sm lg:text-xl font-medium">
+          <h3
+            class="relative flex self-center font-dosis text-md xl:text-2xl font-medium"
+          >
             Hi! I'm Abdelrhany Medjaheri,<br />
             Junior Front-end Developer<a
               href="https://drive.google.com/file/d/1QYC_viSKucLjsbD4aymXijeR8ybp6aZK/view?usp=sharing"
               target="_blank"
               ><span
                 title="Curriculum Vitae"
-                class="iconhero w-10 h-10 left-106 lg:top-10 lg:w-12 lg:h-12 transition duration-200 ease-out transform lg:hover:scale-125"
+                class="iconhero w-10 h-10 top-10 left-110 xl:left-106 xl:top-10 xl:w-14 xl:h-14 transition duration-200 ease-out transform lg:hover:scale-110"
               ></span
             ></a>
           </h3>

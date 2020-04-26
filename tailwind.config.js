@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /*
  ** TailwindCSS Configuration File
  **
@@ -18,6 +19,9 @@ module.exports = {
         '2/3': '66%',
         '2/5': '40%',
         '106': '106%',
+        '110': '110%',
+        '57': '57%',
+        '35': '35%',
         '55': '55%',
         '60': '60%',
         '22': '22%',
@@ -25,17 +29,23 @@ module.exports = {
         '5': '5%'
       },
       spacing: {
+        '14': '3.5rem',
+        '36': '9rem',
         '72': '18rem',
         '84': '21rem',
         '96': '24rem',
-        '108': '27rem'
+        '108': '27rem',
+        '192': '50rem'
       },
       fontFamily: {
-        // eslint-disable-next-line prettier/prettier
-        'title': ['Mitr', 'sans-serif']
+        'title': ['Signika', 'sans-serif'],
+        'dosis': ['Dosis', 'sans-serif']
+      },
+      minWidth: {
+        'maxcontent': 'max-content'
       }
-    }
-  },
-  variants: {},
-  plugins: []
+    },
+    variants: {},
+    plugins: []
+  }
 }

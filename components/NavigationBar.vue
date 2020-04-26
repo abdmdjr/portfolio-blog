@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <a class="logo" href="#">abdmdjr.</a>
+    <a class="logo font-dosis" href="#">abdmdjr.</a>
     <button
       class="hamburger hamburger--spring"
       :class="{ 'is-active': showBurger }"
@@ -35,7 +35,6 @@ export default {
 }
 
 .logo {
-  font-family: 'Dosis', sans-serif;
   font-size: 24px;
   font-weight: 600;
   color: #f2f6fc;
