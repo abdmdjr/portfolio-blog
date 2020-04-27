@@ -1,7 +1,7 @@
 <template>
   <div class="footer flex h-42 bg-dark-blue mt-18">
     <div
-      class="container flex flex-col justify-center mx-auto px-6 font-dosis text-gray-200"
+      class="container flex flex-col justify-center mx-auto px-6 py-6 font-dosis text-gray-200"
     >
       <p class="text-center">
         N’hésitez pas à me donner votre avis sur mon portfolio, ou simplement à
@@ -13,8 +13,8 @@
         <img src="~assets/img/linkedin.svg" class="w-6 m-5" />
         <img src="~assets/img/twitter.svg" class="w-6 m-5" />
       </div>
-      <p class="text-center mx-auto text-xs relative bottom-0">
-        © 2020 — Web app coded by Abdelrhany Medjaheri using Nuxt + NetflifyCMS
+      <p class="text-center mx-auto text-xs">
+        © 2020 — coded by Abdelrhany Medjaheri with NuxtJs
       </p>
     </div>
   </div>
