@@ -1,6 +1,8 @@
 <template>
-  <div class="footer relative h-42 bg-dark-blue mt-18">
-    <div class="container mx-auto px-6 pt-6 font-dosis text-gray-200">
+  <div class="footer flex h-42 bg-dark-blue mt-18">
+    <div
+      class="container flex flex-col justify-center mx-auto px-6 font-dosis text-gray-200"
+    >
       <p class="text-center">
         N’hésitez pas à me donner votre avis sur mon portfolio, ou simplement à
         dire bonjour !
@@ -11,9 +13,8 @@
         <img src="~assets/img/linkedin.svg" class="w-6 m-5" />
         <img src="~assets/img/twitter.svg" class="w-6 m-5" />
       </div>
-      <p class="text-center mx-auto text-xs absolute bottom-0">
-        © 2020 — Web app designed and coded by Abdelrhany Medjaheri using +
-        Nuxt.
+      <p class="text-center mx-auto text-xs relative bottom-0">
+        © 2020 — Web app coded by Abdelrhany Medjaheri using Nuxt + NetflifyCMS
       </p>
     </div>
   </div>
