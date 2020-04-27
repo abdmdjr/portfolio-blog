@@ -6,7 +6,9 @@
       <Blog />
       <About />
       <Experience />
+      <Parcours />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -27,6 +29,8 @@ import Hero from '~/components/Hero.vue'
 import Blog from '~/components/Blog.vue'
 import About from '~/components/About.vue'
 import Experience from '~/components/Experience.vue'
+import Parcours from '~/components/Parcours.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -34,7 +38,9 @@ export default {
     Hero,
     Blog,
     About,
-    Experience
+    Experience,
+    Parcours,
+    Footer
   }
 }
 </script>
