@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavigationBar />
     <Hero />
     <div class="container w-auto mx-auto px-6 sm:px-16 mt-12">
       <Blog />
@@ -8,7 +7,6 @@
       <Experience />
       <Parcours />
     </div>
-    <Footer />
   </div>
 </template>
 
@@ -30,7 +28,6 @@ import Blog from '~/components/Blog.vue'
 import About from '~/components/About.vue'
 import Experience from '~/components/Experience.vue'
 import Parcours from '~/components/Parcours.vue'
-import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -39,8 +36,7 @@ export default {
     Blog,
     About,
     Experience,
-    Parcours,
-    Footer
+    Parcours
   }
 }
 </script>
