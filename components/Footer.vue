@@ -9,9 +9,15 @@
       </p>
       <!-- <span class="iconblog w-10 h-10 md:w-8 md:h-8 mx-auto"></span> -->
       <div class="social flex justify-center m-5">
-        <img src="~assets/img/github.svg" class="w-6 m-5" />
-        <img src="~assets/img/linkedin.svg" class="w-6 m-5" />
-        <img src="~assets/img/twitter.svg" class="w-6 m-5" />
+        <a href="https://github.com/abdmdjr" target="_blank"
+          ><img src="~assets/img/github.svg" class="w-6 m-5"
+        /></a>
+        <a href="https://www.linkedin.com/in/abdmdjr" target="_blank"
+          ><img src="~assets/img/linkedin.svg" class="w-6 m-5"
+        /></a>
+        <a href="https://twitter.com/abdmdjr" target="_blank"
+          ><img src="~assets/img/twitter.svg" class="w-6 m-5"
+        /></a>
       </div>
       <p class="text-center mx-auto text-xs">
         © 2020 — coded by Abdelrhany Medjaheri with NuxtJs

@@ -1,5 +1,5 @@
 <template>
-  <div class="layout">
+  <div>
     <NavigationBar />
     <Hero />
     <div class="container w-auto mx-auto px-6 sm:px-16 mt-12">

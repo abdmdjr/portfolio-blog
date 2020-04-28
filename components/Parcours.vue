@@ -81,4 +81,8 @@ export default {}
   background-image: url('~assets/img/iconparcours.svg');
   background-repeat: no-repeat;
 }
+
+.list {
+  align-items: baseline;
+}
 </style>
