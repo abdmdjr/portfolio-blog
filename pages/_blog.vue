@@ -1,9 +1,17 @@
+<!-- eslint-disable -->
 <template>
-  <article>
-    <h1>{{ blogPost.title }}</h1>
-    <div>{{ blogPost.body }}</div>
-  </article>
+  <div>
+    <article class="max-w-screen-sm sm:mx-auto px-6 my-18">
+      <div class="blog flex flex-col">
+        <h1 class="font-title font-bold text-3xl mb-1">{{ blogPost.title }}</h1>
+        <p class="font-dosis font-medium text-gray-700 sm:text-xl">{{ blogPost.description }}</p>
+        <img class=" mt-5" :src="blogPost.img" alt="">
+        <div class="font-dosis sm:text-xl mt-5" v-html="$md.render(blogPost.body)"></div>
+      </div>
+    </article>
+  </div>
 </template>
+<!-- eslint-disable -->
 
 <script>
 export default {
@@ -17,4 +25,5 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+</style>
