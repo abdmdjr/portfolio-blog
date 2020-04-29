@@ -6,6 +6,17 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
 p {
     text-align: justify;
 }
