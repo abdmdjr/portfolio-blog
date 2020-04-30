@@ -1,11 +1,21 @@
-/* purgecss start ignore */
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&family=Yeseva+One&display=swap');
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
 /* purgecss end ignore */
-@import 'tailwindcss/utilities';
+
+@tailwind  utilities;
 
 p {
     text-align: justify;
 }
+
+.v-lazy-image {
+    filter: blur(10px);
+    transition: filter 0.7s;
+  }
+  
+  .v-lazy-image-loaded {
+    filter: blur(0);
+  }

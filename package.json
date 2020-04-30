@@ -14,9 +14,11 @@
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.9",
     "nuxt": "^2.0.0",
-    "postcss": "^7.0.27"
+    "postcss": "^7.0.27",
+    "v-lazy-image": "^1.4.0"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
     "@nuxtjs/tailwindcss": "^1.4.1",
