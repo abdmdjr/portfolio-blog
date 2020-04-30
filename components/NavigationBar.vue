@@ -3,14 +3,26 @@
     <div class="container flex justify-between px-6 sm:px-16">
       <nuxt-link class="logo font-dosis" to="/">abdmdjr.</nuxt-link>
       <div class="social w-18 flex items-center justify-between">
-        <a href="https://github.com/abdmdjr" target="_blank"
-          ><img src="~assets/img/github.svg" class="w-4 "
+        <a
+          href="https://github.com/abdmdjr"
+          target="_blank"
+          rel="noopener"
+          aria-label="link_github"
+          ><img src="~assets/img/github.svg" class="w-4" alt="github_icon"
         /></a>
-        <a href="https://www.linkedin.com/in/abdmdjr" target="_blank"
-          ><img src="~assets/img/linkedin.svg" class="w-4"
+        <a
+          href="https://www.linkedin.com/in/abdmdjr"
+          target="_blank"
+          rel="noopener"
+          aria-label="link_linkedin"
+          ><img src="~assets/img/linkedin.svg" class="w-4" alt="linkedin_icon"
         /></a>
-        <a href="https://twitter.com/abdmdjr" target="_blank"
-          ><img src="~assets/img/twitter.svg" class="w-4 "
+        <a
+          href="https://twitter.com/abdmdjr"
+          target="_blank"
+          rel="noopener"
+          aria-label="link_twitter"
+          ><img src="~assets/img/twitter.svg" class="w-4" alt="twitter_icon"
         /></a>
       </div>
     </div>
