@@ -5,6 +5,7 @@
 @import 'tailwindcss/utilities';
 
 p {
+    margin: 30px 0;
     text-align: justify;
 }
 
