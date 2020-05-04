@@ -26,4 +26,11 @@ export default {}
   background-image: url('~assets/img/iconaboutme.svg');
   background-repeat: no-repeat;
 }
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+}
 </style>

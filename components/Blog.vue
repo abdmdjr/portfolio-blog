@@ -7,12 +7,12 @@
       <li v-for="blogPost in blogPosts" :key="blogPost.blog" class="mt-8">
         <nuxt-link :to="'/' + blogPost.slug">
           <v-lazy-image :src="blogPost.img" alt="article image"></v-lazy-image>
-          <h1 class="font-title font-bold text-2xl mt-1 mb-1">
+          <h1 class="font-title font-bold text-2xl mt-3 mb-3">
             {{ blogPost.title }}
           </h1>
-          <p class="font-dosis font-medium text-gray-700 sm:text-xl">
+          <div class="font-dosis font-medium text-gray-700 sm:text-xl">
             {{ blogPost.description }}
-          </p>
+          </div>
         </nuxt-link>
       </li>
     </ul>
@@ -39,5 +39,12 @@ export default {
   position: absolute;
   background-image: url('~assets/img/iconblog3.svg');
   background-repeat: no-repeat;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
 }
 </style>

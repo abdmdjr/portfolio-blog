@@ -5,8 +5,27 @@
 @import 'tailwindcss/utilities';
 
 p {
-    margin: 30px 0;
     text-align: justify;
+    margin: 30px 0;
+}
+
+p > a {
+  color: #001aff;
+}
+
+em {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+em > a {
+  color: #001aff;
+}
+
+ol, ul {
+	list-style: disclosure-closed;
+	margin: 0;
+	padding-left: 40px;
 }
 
 .v-lazy-image {

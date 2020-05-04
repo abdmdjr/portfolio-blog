@@ -56,4 +56,11 @@ export default {}
 .list {
   align-items: baseline;
 }
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+}
 </style>

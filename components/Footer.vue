@@ -57,4 +57,15 @@ export default {}
   background-image: url('~assets/img/iconhobbies.svg');
   background-repeat: no-repeat;
 }
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0px;
+}
+
+p {
+  margin: 0;
+}
 </style>
