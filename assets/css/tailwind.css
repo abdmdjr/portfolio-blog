@@ -13,6 +13,11 @@ p > a {
   color: #001aff;
 }
 
+
+p > img {
+  width: 100%;
+}
+
 em {
   font-size: 0.9rem;
   font-style: italic;
@@ -23,7 +28,7 @@ em > a {
 }
 
 ol, ul {
-	list-style: disclosure-closed;
+	list-style: disc;
 	margin: 0;
 	padding-left: 40px;
 }
