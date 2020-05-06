@@ -9,7 +9,6 @@
         />
         <div
           class="lg:absolute lg:top-35 lg:right-60 xl:right-57 h-20 w-72 xl:h-32 xl:w-96 bg-gray-200 flex items-center p-6 text-justify mx-auto rounded-md shadow-lg"
-          data-aos="fade-right"
         >
           <h3
             class="relative flex self-center font-dosis text-md xl:text-2xl font-medium"
