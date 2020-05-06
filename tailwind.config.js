@@ -35,6 +35,8 @@ module.exports = {
         '379': '379px',
       },
       spacing: {
+        '6s': '6.4rem',
+        '7s': '7.9rem',
         '14': '3.5rem',
         '18': '5.5rem',
         '28': '7rem',

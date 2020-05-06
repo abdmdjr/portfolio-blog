@@ -19,7 +19,7 @@
               target="_blank"
               ><span
                 title="Curriculum Vitae"
-                class="iconhero w-10 h-10 top-10 left-110 xl:left-106 xl:top-10 xl:w-14 xl:h-14 transition duration-200 ease-out transform lg:hover:scale-110"
+                class="iconhero w-10 h-10 top-10 left-110 xl:left-106 xl:top-10 xl:w-14 xl:h-14 transition duration-100 ease-in transform lg:hover:scale-125"
               ></span
             ></a>
           </h3>

@@ -4,9 +4,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-p {
+.content > p {
     text-align: justify;
     margin: 30px 0;
+}
+
+p {
+  text-align: justify;
 }
 
 p > a {

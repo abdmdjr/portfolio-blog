@@ -25,17 +25,22 @@
             >
               Développeur front-end -
               <span class="block xl:block sm:inline font-bold text-blue-600"
-                >Concept Factory</span
+                ><a
+                  href="https://www.conceptfactory.lu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Concept Factory</a
+                ></span
               >
             </p>
           </div>
-          <p class="font-dosis sm:text-xl mt-4 xl:mt-0 xl:pl-28">
+          <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-36">
             J'ai travaillé deux mois avec l'équipe front-end et deux mois avec
             l'équipe back-end. Ce stage s'est agréablement bien deroulé, j'ai
-            énormement appris (voir CV). En plus d'avoir approndis la technique,
+            énormement appris (voir CV). En plus d'avoir approndi la technique,
             le fait d'être au coeur de projets clients et de s'organiser en
-            équipe est très formateur. Super team au passage
-            <span style="font-size:20px;">&#128526;</span>
+            équipe est très formateur. Super team au passage !
           </p>
         </li>
       </ul>

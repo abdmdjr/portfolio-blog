@@ -12,7 +12,7 @@
             class="list flex justify-between xl:self-center xl:mb-0 xl:self-start xl:flex-col xl:mr-8 mb-4"
           >
             <div class="location font-dosis font-medium">Partout</div>
-            <div class="date text-gray-700 text-xs">Chaque jour</div>
+            <div class="date text-blue-600 text-xs">Chaque jour</div>
           </div>
           <div class="flex xl:w-192 xl:ml-10 justify-start items-center">
             <img
@@ -23,17 +23,22 @@
             <p
               class="self-center xl:min-w-maxcontent font-dosis ml-5 xl:ml-10 sm:text-xl"
             >
-              Self-learner -
+              Autodidacte -
               <span class="block xl:block sm:inline font-bold text-blue-600"
-                >Concept Factory</span
+                ><a
+                  href="https://github.com/abdmdjr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Github</a
+                ></span
               >
             </p>
           </div>
-          <p class="font-dosis sm:text-xl mt-4 xl:mt-0 xl:pl-28">
-            I’m working for Apple as a frontend developer self-employed
-            contractor to improve the visual part of their websites. I work for
-            Cupertino, California remotely from Barcelona. At the moment I’m
-            learning #CleanCode #DeepJSKnowledge
+          <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-6s">
+            J'utilise le savoir acquis en formation et en stage pour me lancer
+            des projets persos ! Je me focus actuellement sur Javascript (VueJS
+            en particulier), et découvre les avantages de la JAMStack. Mon
+            prochain projet sera centré autour de l'utilisation d'une API REST.
           </p>
         </li>
         <li class="xl:flex xl:flex-row">
@@ -52,17 +57,24 @@
             <p
               class="self-center text-left xl:min-w-maxcontent font-dosis ml-5 xl:ml-10 sm:text-xl"
             >
-              Diplôme développeur Web
+              Formation Dev Web -
               <span class="block xl:block sm:inline font-bold text-blue-600"
-                >- AFPA</span
+                ><a
+                  href="https://www.afpa.fr/formation-qualifiante/developpeur-logiciel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  AFPA</a
+                ></span
               >
             </p>
           </div>
-          <p class="font-dosis sm:text-xl mt-4 xl:mt-0 xl:pl-28">
-            I’m working for Apple as a frontend developer self-employed
-            contractor to improve the visual part of their websites. I work for
-            Cupertino, California remotely from Barcelona. At the moment I’m
-            learning #CleanCode #DeepJSKnowledge
+          <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-7s">
+            Nous avons appris beaucoup pendant cette formation. Ce passage à
+            l'AFPA m'a permis de comprendre les bases et d'approfondir le
+            metier, d'apprendre à apprendre et ainsi d'être autonome. HTML5,
+            CSS3, JS et PHP avec MySQL. Super promo, beaucoup de partage et de
+            bonne humeur !
           </p>
         </li>
       </ul>

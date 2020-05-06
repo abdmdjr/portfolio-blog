@@ -34,7 +34,7 @@ export default {
       const path = require('path')
       return fs.readdirSync('./assets/content/blog').map((file) => {
         return {
-          route: `/${path.parse(file).name}`, // Return the slug
+          route: `/${path.parse(file).name}`,
           payload: require(`./assets/content/blog/${file}`)
         }
       })
