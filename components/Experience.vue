@@ -14,7 +14,7 @@
             <div class="location font-dosis font-medium">Luxembourg</div>
             <div class="date text-gray-700 text-xs">Oct'19-Janv'20</div>
           </div>
-          <div class="flex xl:w-192 xl:ml-10 justify-start">
+          <div class="flex xl:w-192 xl:ml-10 justify-start items-center">
             <img
               class="h-18 xl:h-24"
               src="~assets/img/logoconcept.png"
@@ -30,10 +30,12 @@
             </p>
           </div>
           <p class="font-dosis sm:text-xl mt-4 xl:mt-0 xl:pl-28">
-            I’m working for Apple as a frontend developer self-employed
-            contractor to improve the visual part of their websites. I work for
-            Cupertino, California remotely from Barcelona. At the moment I’m
-            learning #CleanCode #DeepJSKnowledge
+            J'ai travaillé deux mois avec l'équipe front-end et deux mois avec
+            l'équipe back-end. Ce stage s'est agréablement bien deroulé, j'ai
+            énormement appris (voir CV). En plus d'avoir approndis la technique,
+            le fait d'être au coeur de projets clients et de s'organiser en
+            équipe est très formateur. Super team au passage
+            <span style="font-size:20px;">&#128526;</span>
           </p>
         </li>
       </ul>

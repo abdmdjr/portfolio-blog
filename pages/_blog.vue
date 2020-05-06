@@ -4,6 +4,7 @@
     <div class="hidden lg:block lg:ml-14 xl:ml-36">
       <div class="w-18 fixed flex flex-col justify-center rounded-lg shadow-lg" 
         data-aos="fade-right"
+        data-aos-delay="300"
         data-aos-anchor="#trigger-left"
         data-aos-anchor-placement="top-top">
       <div class="">
@@ -18,7 +19,8 @@
       <p class="content font-dosis font-medium text-gray-700 sm:text-xl">
         {{ blogPost.description }}
       </p>
-      <v-lazy-image class="max-w-screen mt-5" :src="blogPost.img" alt=""></v-lazy-image>
+      <v-lazy-image class="max-w-screen mt-5" 
+      :src="blogPost.img" alt=""></v-lazy-image>
       <div
         class="content font-dosis sm:text-xl mt-5"
         id="trigger-left"

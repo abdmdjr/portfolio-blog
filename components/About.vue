@@ -6,11 +6,17 @@
       ></span>
     </h1>
     <p class="font-dosis text-gray-700 sm:text-xl mt-8">
-      Passionné par le design et par l'envie de croquer le web, j'ai suivi une
-      formation pour réussir ma reconversion professionnelle en tant que
-      développeur web. Mon objectif premier est de créer la liaison optimale
-      entre l'application et l'utilisateur afin de satisfaire les besoins de ce
-      dernier.
+      Salut c’est Abdel! Déjà passionné par le design depuis mon adolescence, je
+      me suis tourné logiquement vers une reconversion dans le développement
+      web, après avoir exercé 3 ans dans le domaine du commerce. J’ai obtenu un
+      diplôme de développeur équivalent à un BAC+2 en informatique mi-janvier
+      2020, et je suis maintenant développeur front-end junior. Mon objectif est
+      de designer des interfaces intuitives et de les créer en suivant les «best
+      practices» pour y parvenir. En effet, la qualité du code est importante à
+      mes yeux et j’y fait doublement attention => s’imprégner des meilleurs
+      pratiques est une bonne manière d’avancer sereinement. J’ai crée ce
+      portfolio - blog pour me présenter, et aussi pour m’entrainer (NuxtJS +
+      NetlifyCMS). Je publierai un nouveau prochainement !
     </p>
   </div>
 </template>
