@@ -7,7 +7,7 @@
       <li v-for="blogPost in blogPosts" :key="blogPost.blog" class="mt-8">
         <nuxt-link :to="'/' + blogPost.slug">
           <v-lazy-image :src="blogPost.img" alt="article image"></v-lazy-image>
-          <h1 class="font-title font-bold text-2xl mt-2 mb-2">
+          <h1 class="font-title font-bold text-xl md:text-2xl mt-2 mb-2">
             {{ blogPost.title }}
           </h1>
           <div class="font-dosis text-gray-700 sm:text-xl">

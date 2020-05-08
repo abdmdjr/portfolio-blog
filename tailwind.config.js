@@ -50,12 +50,15 @@ module.exports = {
         '192': '50rem'
       },
       fontFamily: {
-        'title': ['Signika', 'sans-serif'],
         'dosis': ['Dosis', 'sans-serif']
       },
       minWidth: {
         'maxcontent': 'max-content'
       }
+    },
+    purge: {
+      enabled: true,
+      content: ['./src/**/*.vue'],
     },
     variants: {},
     plugins: []
