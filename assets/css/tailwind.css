@@ -37,6 +37,18 @@ ol, ul {
 	padding-left: 40px;
 }
 
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+
 .v-lazy-image {
     filter: blur(10px);
     transition: filter 0.7s;

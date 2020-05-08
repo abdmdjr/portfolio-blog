@@ -2,15 +2,13 @@
 <template>
   <div>
     <div class="hidden lg:block lg:ml-14 xl:ml-36">
-      <div class="w-18 fixed flex flex-col justify-center rounded-lg shadow-lg" 
+      <div class="fixed flex flex-col justify-center" 
         data-aos="fade-right"
         data-aos-delay="300"
         data-aos-anchor="#trigger-left"
         data-aos-anchor-placement="top-top">
-      <div class="">
-        <img class="w-18" src="~assets/img/abdelcircle.png" alt="">
-      </div>
-        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Hey, j&#39;ai trouvé cet article super cool !" data-show-count="false"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <img class="w-4s mb-3" src="~assets/img/abdelcircle.png" alt="">
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Hey, j&#39;ai trouvé cet article super cool !" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   <article class="max-w-screen-sm sm:mx-auto px-6 my-18">

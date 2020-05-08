@@ -29,6 +29,7 @@
                   href="https://github.com/abdmdjr"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="link_github"
                   >Github</a
                 ></span
               >
@@ -63,6 +64,7 @@
                   href="https://www.afpa.fr/formation-qualifiante/developpeur-logiciel"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="link_afpa"
                 >
                   AFPA</a
                 ></span

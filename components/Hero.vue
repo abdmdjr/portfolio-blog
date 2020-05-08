@@ -17,6 +17,7 @@
             Junior Front-end Developer<a
               href="https://drive.google.com/file/d/1QYC_viSKucLjsbD4aymXijeR8ybp6aZK/view?usp=sharing"
               target="_blank"
+              aria-label="resume Abdel"
               ><span
                 title="Curriculum Vitae"
                 class="iconhero w-10 h-10 top-10 left-110 xl:left-106 xl:top-10 xl:w-14 xl:h-14 transition duration-100 ease-in transform lg:hover:scale-125"

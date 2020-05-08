@@ -29,6 +29,7 @@
                   href="https://www.conceptfactory.lu/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="link_conceptFactory"
                 >
                   Concept Factory</a
                 ></span
