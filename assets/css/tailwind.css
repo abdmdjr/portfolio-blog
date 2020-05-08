@@ -1,16 +1,17 @@
 /* purgecss start ignore */
 @tailwind base;
-
-/* purgecss end ignore */
 @tailwind components;
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,500&display=swap');
-
+/* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
 
-h1, h3 {
+h1{
   font-family: 'Fira Sans', sans-serif;  
   font-weight: 700;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
 }
 
 .content > p {

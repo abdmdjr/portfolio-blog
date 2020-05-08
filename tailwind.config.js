@@ -49,16 +49,20 @@ module.exports = {
         '108': '27rem',
         '192': '50rem'
       },
-      fontFamily: {
-        'dosis': ['Dosis', 'sans-serif']
-      },
       minWidth: {
         'maxcontent': 'max-content'
       }
     },
     purge: {
-      enabled: true,
-      content: ['./src/**/*.vue'],
+      // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
+      enabled: process.env.NODE_ENV === "production",
+      content: [
+        "components/**/*.vue",
+        "layouts/**/*.vue",
+        "pages/**/*.vue",
+        "plugins/**/*.js",
+        "nuxt.config.js"
+      ]
     },
     variants: {},
     plugins: []
