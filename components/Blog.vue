@@ -6,7 +6,7 @@
     <ul class="sm:grid sm:grid-cols-2 gap-10">
       <li v-for="blogPost in blogPosts" :key="blogPost.blog" class="mt-8">
         <nuxt-link :to="'/' + blogPost.slug">
-          <v-lazy-image :src="blogPost.img" alt="article image"></v-lazy-image>
+          <img :src="blogPost.img" alt="article image" />
           <h1 class="font-title font-bold text-xl md:text-2xl mt-2 mb-2">
             {{ blogPost.title }}
           </h1>
@@ -20,11 +20,12 @@
 </template>
 
 <script>
-import VLazyImage from 'v-lazy-image'
+/* import VLazyImage from 'v-lazy-image' */
 export default {
-  components: {
+  /*   components: {
     VLazyImage
   },
+   */
   computed: {
     blogPosts() {
       return this.$store.state.blogPosts
