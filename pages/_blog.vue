@@ -11,7 +11,7 @@
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Hey, j&#39;ai trouvé cet article super cool !" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
-  <article class="max-w-screen-sm sm:mx-auto px-6 my-18">
+  <article class="max-w-screen-sm sm:mx-auto px-6 my-10">
     <div class="blog flex flex-col">
       <h1 class="font-title font-bold text-3xl mb-1">{{ blogPost.title }}</h1>
       <p class="content font-dosis font-medium text-gray-700 sm:text-xl">
@@ -43,6 +43,11 @@ export default {
       return {
         blogPost: await require(`~/assets/content/blog/${params.blog}.json`)
       }
+  },
+  head() {
+    return {
+      title: "Blog : " + this.blogPost.title
+    }
   }
 }
 </script>

@@ -9,7 +9,7 @@
       <ul>
         <li class="xl:flex xl:flex-row mb-12">
           <div
-            class="list flex justify-between xl:self-center xl:mb-0 xl:self-start xl:flex-col xl:mr-8 mb-4"
+            class="list flex justify-between xl:self-center xl:mb-0 xl:flex-col xl:mr-8 mb-4"
           >
             <div class="location font-dosis font-medium">Partout</div>
             <div class="date text-blue-600 text-xs">Chaque jour</div>
@@ -72,7 +72,7 @@
             </p>
           </div>
           <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-7s">
-            Nous avons appris beaucoup pendant cette formation. Ce passage à
+            Nous avons beaucoup appris pendant cette formation. Ce passage à
             l'AFPA m'a permis de comprendre les bases et d'approfondir le
             metier, d'apprendre à apprendre et ainsi d'être autonome. HTML5,
             CSS3, JS et PHP avec MySQL. Super promo, beaucoup de partage et de

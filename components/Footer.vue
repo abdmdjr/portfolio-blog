@@ -1,12 +1,12 @@
 <template>
   <div class="relative">
-    <div class="footer flex h-42 bg-dark-blue mt-18">
+    <div class="footer flex h-42 bg-dark-blue mt-10">
       <div
         class="container flex flex-col justify-center mx-auto px-6 py-6 font-dosis text-gray-200"
       >
         <p class="text-center">
           N’hésitez pas à me donner votre avis sur mon portfolio, à me contacter
-          pour un job, ou simplement à dire bonjour!
+          pour un job, ou simplement pour dire bonjour!
         </p>
         <!-- <span class="iconblog w-10 h-10 md:w-8 md:h-8 mx-auto"></span> -->
         <div class="social flex justify-center m-5">

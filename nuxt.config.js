@@ -7,7 +7,7 @@ export default {
     htmlAttrs: {
       lang: 'fr'
     },
-    title: process.env.npm_package_name || '',
+    title: 'Personal Website - Abdel Medjaheri',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

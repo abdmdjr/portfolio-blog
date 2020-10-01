@@ -9,7 +9,7 @@
       <ul>
         <li class="xl:flex xl:flex-row">
           <div
-            class="list flex justify-between xl:self-center xl:mb-0 xl:self-start xl:flex-col mb-4"
+            class="list flex justify-between xl:self-center xl:mb-0 xl:flex-col mb-4"
           >
             <div class="location font-dosis font-medium">Luxembourg</div>
             <div class="date text-gray-700 text-xs">Oct'19-Janv'20</div>
