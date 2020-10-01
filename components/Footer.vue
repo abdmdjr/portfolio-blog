@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="footer flex h-42 bg-dark-blue mt-10">
+    <div class="footer flex h-42 bg-dark-blue mt-18">
       <div
         class="container flex flex-col justify-center mx-auto px-6 py-6 font-dosis text-gray-200"
       >
