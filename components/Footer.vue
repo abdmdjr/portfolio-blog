@@ -6,7 +6,7 @@
       >
         <p class="text-center">
           N’hésitez pas à me donner votre avis sur mon portfolio, à me contacter
-          pour un job, ou simplement pour dire bonjour!
+          pour un job, ou simplement à dire bonjour!
         </p>
         <!-- <span class="iconblog w-10 h-10 md:w-8 md:h-8 mx-auto"></span> -->
         <div class="social flex justify-center m-5">

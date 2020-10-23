@@ -5,9 +5,14 @@
 @import 'tailwindcss/utilities';
 
 
-h1{
+h1 {
   font-family: 'Fira Sans', sans-serif;  
   font-weight: 700;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 body {
@@ -25,11 +30,6 @@ p {
 
 p > a {
   color: #001aff;
-}
-
-
-p > img {
-  width: 100%;
 }
 
 em {
