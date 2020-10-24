@@ -4,7 +4,7 @@
       <div class="lg:relative lg:pb-0 pb-8">
         <img
           class="lg:relative lg:left-5 w-48 mx-auto lg:w-96"
-          src="~assets/img/maybe4.png"
+          src="~assets/img/maybe1.png"
           alt
         />
         <div
