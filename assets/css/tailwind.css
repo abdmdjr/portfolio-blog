@@ -13,6 +13,11 @@ h1 {
 h2 {
   font-size: 1.6rem;
   font-weight: 600;
+  margin-bottom: 13px;
+}
+
+h3 {
+  margin: 0;
 }
 
 body {
