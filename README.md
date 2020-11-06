@@ -1,6 +1,6 @@
 # portfolio-blog
 
-> Blog d'un développeur front-end junior giga cool
+> Blog d'un développeur front-end junior créatif
 
 ## Build Setup
 
