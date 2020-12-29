@@ -1,6 +1,6 @@
 # portfolio-blog
 
-> Portfolio-Blog project with NuxtJS
+> Blog d'un développeur front-end junior créatif
 
 ## Build Setup
 
