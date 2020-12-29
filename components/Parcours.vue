@@ -35,7 +35,9 @@
               >
             </p>
           </div>
-          <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-6s">
+          <p
+            class="font-dosis xl:w-150 text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-6s"
+          >
             J'utilise le savoir acquis en formation et en stage pour me lancer
             des projets persos ! Je me focus actuellement sur Javascript (VueJS
             en particulier), et découvre les avantages de la JAMStack. Mon
@@ -49,7 +51,7 @@
             <div class="location font-dosis font-medium">Nancy</div>
             <div class="date text-gray-700 text-xs">Avr'19-Janv'20</div>
           </div>
-          <div class="flex xl:w-192 xl:ml-10 justify-start items-center">
+          <div class="flex xl:w-192 xl:ml-12 justify-start items-center">
             <img
               class="h-18 xl:h-24"
               src="~assets/img/iconschool.png"
@@ -71,7 +73,9 @@
               >
             </p>
           </div>
-          <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-7s">
+          <p
+            class="font-dosis xl:w-150 text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-7s"
+          >
             Nous avons beaucoup appris pendant cette formation. Ce passage à
             l'AFPA m'a permis de comprendre les bases et d'approfondir le
             metier, d'apprendre à apprendre et ainsi d'être autonome. HTML5,

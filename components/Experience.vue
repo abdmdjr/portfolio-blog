@@ -7,6 +7,45 @@
     </h1>
     <div class="list mt-8">
       <ul>
+        <li class="xl:flex xl:flex-row mb-12">
+          <div
+            class="list flex justify-between xl:self-center xl:mb-0 xl:flex-col mb-4"
+          >
+            <div class="location font-dosis font-medium">Indépendant</div>
+            <div class="date text-gray-700 text-xs">Aout'20-Nov'20</div>
+          </div>
+          <div class="flex xl:w-192 xl:ml-10 justify-start items-center">
+            <img
+              class="h-18 xl:h-24"
+              src="~assets/img/logocompar.png"
+              alt="logo Compar'Or"
+            />
+            <p
+              class="self-center xl:min-w-maxcontent font-dosis ml-5 xl:ml-10 sm:text-xl"
+            >
+              Développeur fullstack -
+              <span class="block xl:block sm:inline font-bold text-blue-600"
+                ><a
+                  href="https://compar-or.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="link_conceptFactory"
+                >
+                  Compar'Or</a
+                ></span
+              >
+            </p>
+          </div>
+          <p
+            class="font-dosis xl:w-150 text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-36"
+          >
+            Dans le cadre de mon projet perso, j'ai développé une web app qui
+            permet de trouver le meilleur prix des pièces d’or les plus
+            convoitées par les investisseurs via mon API ! Les technos utilisées
+            : NuxtJS, NodeJS, MongoDB, et la librairie Puppeteer pour le
+            webscraping (la récupération des prix sur les sites comparés)
+          </p>
+        </li>
         <li class="xl:flex xl:flex-row">
           <div
             class="list flex justify-between xl:self-center xl:mb-0 xl:flex-col mb-4"
@@ -23,7 +62,7 @@
             <p
               class="self-center xl:min-w-maxcontent font-dosis ml-5 xl:ml-10 sm:text-xl"
             >
-              Développeur front-end -
+              Développeur frontend -
               <span class="block xl:block sm:inline font-bold text-blue-600"
                 ><a
                   href="https://www.conceptfactory.lu/"
@@ -36,12 +75,14 @@
               >
             </p>
           </div>
-          <p class="font-dosis text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-36">
+          <p
+            class="font-dosis xl:w-150 text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-36"
+          >
             J'ai travaillé deux mois avec l'équipe front-end et deux mois avec
             l'équipe back-end. Ce stage s'est agréablement bien deroulé, j'ai
-            énormement appris (voir CV). En plus d'avoir approndi la technique,
-            le fait d'être au coeur de projets clients et de s'organiser en
-            équipe est très formateur. Super team au passage !
+            énormement appris. En plus d'avoir approndi la technique, le fait
+            d'être au coeur de projets clients et de s'organiser en équipe est
+            très formateur. Super team au passage !
           </p>
         </li>
       </ul>

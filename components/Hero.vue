@@ -1,10 +1,10 @@
 <template>
   <section class="hero bg-dark-blue">
     <div class="hero-content">
-      <div class="lg:relative lg:pb-0 pb-8">
+      <div class="lg:relative py-20">
         <img
-          class="lg:relative lg:left-5 w-48 mx-auto lg:w-96"
-          src="~assets/img/hero.png"
+          class="lg:relative lg:left-5 mx-auto w-48 mb-5 lg:mb-0"
+          src="~assets/img/logohero.png"
           alt
         />
         <div
@@ -14,12 +14,12 @@
             class="relative flex self-center font-dosis text-md xl:text-2xl font-medium"
           >
             Salut à tous ! Je m'appelle Abdel,
-            <br />Je suis développeur Front-End Junior
-            <a
+            <br />Je suis développeur front-end 👨🏻‍💻
+            <!-- <a
               href="https://drive.google.com/file/d/1QYC_viSKucLjsbD4aymXijeR8ybp6aZK/view?usp=sharing"
               target="_blank"
               aria-label="resume Abdel"
-            ></a>
+            ></a> -->
           </h3>
         </div>
       </div>
