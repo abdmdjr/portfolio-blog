@@ -15,7 +15,7 @@
     "@nuxtjs/markdownit": "^1.2.9",
     "aos": "^2.3.4",
     "nuxt": "^2.0.0",
-    "postcss": "^7.0.27",
+    "postcss": "^8.2.10",
     "v-lazy-image": "^1.4.0"
   },
   "devDependencies": {
