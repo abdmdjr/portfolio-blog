@@ -11,6 +11,48 @@
           <div
             class="list flex justify-between xl:self-center xl:mb-0 xl:flex-col mb-4"
           >
+            <div class="location font-dosis font-medium block w-20">
+              En poste
+            </div>
+            <div class="date text-gray-700 text-xs">Févr 21</div>
+          </div>
+          <div class="flex xl:w-192 xl:ml-10 justify-start items-center">
+            <img
+              class="h-18 xl:h-24"
+              src="~assets/img/logointeract.jpeg"
+              alt="logo Compar'Or"
+            />
+            <p
+              class="self-center xl:min-w-maxcontent font-dosis ml-5 xl:ml-10 sm:text-xl"
+            >
+              Développeur frontend -
+              <span class="block xl:block sm:inline font-bold text-blue-600"
+                ><a
+                  href="https://interact.lu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="link_Interact"
+                >
+                  Interact S.A.</a
+                ></span
+              >
+            </p>
+          </div>
+          <p
+            class="font-dosis xl:w-150 text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-36"
+          >
+            J'ai integré une équipe de développeurs PHP (Symfony) chez Interact.
+            Mon objectif principal est de créer des interfaces utilisateurs
+            performantes et ergonomiques en utilisant les APIs mises à
+            disposition par mes collègues: admin dashboard, formulaires
+            multi-étapes, création d'une galerie média, représentation graphique
+            de données, etc.
+          </p>
+        </li>
+        <li class="xl:flex xl:flex-row mb-12">
+          <div
+            class="list flex justify-between xl:self-center xl:mb-0 xl:flex-col mb-4"
+          >
             <div class="location font-dosis font-medium">Indépendant</div>
             <div class="date text-gray-700 text-xs">Aout'20-Nov'20</div>
           </div>
@@ -79,8 +121,7 @@
             class="font-dosis xl:w-150 text-gray-700 sm:text-xl mt-4 xl:mt-0 xl:pl-36"
           >
             J'ai travaillé deux mois avec l'équipe front-end et deux mois avec
-            l'équipe back-end. Ce stage s'est agréablement bien deroulé, j'ai
-            énormement appris. En plus d'avoir approndi la technique, le fait
+            l'équipe back-end. En plus d'avoir approndi la technique, le fait
             d'être au coeur de projets clients et de s'organiser en équipe est
             très formateur. Super team au passage !
           </p>
